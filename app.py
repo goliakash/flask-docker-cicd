@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Hello from Flask + Docker + GitHub Actions!",
+        "message": "Hello from Flask + Docker + GitHub Action!",
         "status": "running"
     })
 
